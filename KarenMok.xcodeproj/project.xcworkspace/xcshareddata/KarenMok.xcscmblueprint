@@ -1,18 +1,18 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "86F0EB8BBACB92C7935FD5BED8D3FF48ABB95CA7",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B03386222ED7ED284EAB78DFEBEC0703CC6D38FD",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
     "b3ea32e5-604c-4fca-b5db-6ae888a3e4b3++5760" : {
 
     }
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "86F0EB8BBACB92C7935FD5BED8D3FF48ABB95CA7" : 0,
-    "b3ea32e5-604c-4fca-b5db-6ae888a3e4b3++5760" : 0
+    "b3ea32e5-604c-4fca-b5db-6ae888a3e4b3++5760" : 0,
+    "B03386222ED7ED284EAB78DFEBEC0703CC6D38FD" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D71DB6F0-CED6-49CF-A0DE-7A20B1303CF9",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "86F0EB8BBACB92C7935FD5BED8D3FF48ABB95CA7" : "KarenMok",
-    "b3ea32e5-604c-4fca-b5db-6ae888a3e4b3++5760" : "KarenMokKarenMok\/Class\/Scene\/OpenSource\/SDWebImage-master--MRC"
+    "b3ea32e5-604c-4fca-b5db-6ae888a3e4b3++5760" : "KarenMokKarenMok\/Class\/Scene\/OpenSource\/SDWebImage-master--MRC",
+    "B03386222ED7ED284EAB78DFEBEC0703CC6D38FD" : "KarenMok"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "KarenMok",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -21,7 +21,7 @@
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/BraveMatchstickMen\/KarenMok.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "86F0EB8BBACB92C7935FD5BED8D3FF48ABB95CA7"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B03386222ED7ED284EAB78DFEBEC0703CC6D38FD"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/yangj.5166.info\/1000phone",
