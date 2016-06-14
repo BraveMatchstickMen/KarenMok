@@ -25,8 +25,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.dataArr = [NSMutableArray array];
-        [self handleMVData];
+        
     }
     return self;
 }
@@ -81,6 +80,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    self.dataArr = [NSMutableArray array];
+    [self handleMVData];
     
     self.title = @"MOK MV";
     if (self.dataArr != nil) {

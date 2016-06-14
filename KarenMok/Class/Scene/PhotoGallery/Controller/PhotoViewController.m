@@ -30,8 +30,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.array = [NSArray arrayWithObjects:@"0", @"1", @"2", @"3", @"4", nil];
-        [self handleLocationData];
+        
     }
     return self;
 }
@@ -89,6 +88,8 @@
     [self.hud hide:YES];
     self.title = @"相册";
     
+    self.array = [NSArray arrayWithObjects:@"0", @"1", @"2", @"3", @"4", nil];
+    [self handleLocationData];
 }
 
 
