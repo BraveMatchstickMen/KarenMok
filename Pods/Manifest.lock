@@ -1,0 +1,27 @@
+PODS:
+  - React/Core (0.27.2)
+  - React/RCTImage (0.27.2):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTNetwork (0.27.2):
+    - React/Core
+  - React/RCTText (0.27.2):
+    - React/Core
+  - React/RCTWebSocket (0.27.2):
+    - React/Core
+
+DEPENDENCIES:
+  - React/Core (from `~/node_modules/react-native`)
+  - React/RCTImage (from `~/node_modules/react-native`)
+  - React/RCTNetwork (from `~/node_modules/react-native`)
+  - React/RCTText (from `~/node_modules/react-native`)
+  - React/RCTWebSocket (from `~/node_modules/react-native`)
+
+EXTERNAL SOURCES:
+  React:
+    :path: ~/node_modules/react-native
+
+SPEC CHECKSUMS:
+  React: ed545be51aeb5c3988abb0b17bf174b87aac1a17
+
+COCOAPODS: 0.39.0
