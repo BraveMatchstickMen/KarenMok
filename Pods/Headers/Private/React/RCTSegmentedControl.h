@@ -1,1 +1,1 @@
-../../../../../node_modules/react-native/React/Views/RCTSegmentedControl.h
+../../../../ReactComponent/node_modules/react-native/React/Views/RCTSegmentedControl.h

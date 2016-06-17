@@ -1,1 +1,1 @@
-../../../../../node_modules/react-native/React/Base/RCTPerformanceLogger.h
+../../../../ReactComponent/node_modules/react-native/React/Base/RCTPerformanceLogger.h

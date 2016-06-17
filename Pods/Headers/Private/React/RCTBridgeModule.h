@@ -1,1 +1,1 @@
-../../../../../node_modules/react-native/React/Base/RCTBridgeModule.h
+../../../../ReactComponent/node_modules/react-native/React/Base/RCTBridgeModule.h

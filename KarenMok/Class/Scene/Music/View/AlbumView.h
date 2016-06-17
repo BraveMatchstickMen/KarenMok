@@ -16,5 +16,6 @@
 @property (nonatomic, strong) UIButton *photo;
 @property (nonatomic, strong) UIButton *feedBack;
 @property (nonatomic, strong) UIButton *hot;
+@property (nonatomic, strong) UIButton *favorite;
 
 @end

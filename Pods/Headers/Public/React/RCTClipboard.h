@@ -1,1 +1,1 @@
-../../../../../node_modules/react-native/React/Modules/RCTClipboard.h
+../../../../ReactComponent/node_modules/react-native/React/Modules/RCTClipboard.h

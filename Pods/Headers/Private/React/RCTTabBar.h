@@ -1,1 +1,1 @@
-../../../../../node_modules/react-native/React/Views/RCTTabBar.h
+../../../../ReactComponent/node_modules/react-native/React/Views/RCTTabBar.h

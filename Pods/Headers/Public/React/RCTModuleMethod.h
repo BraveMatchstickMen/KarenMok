@@ -1,1 +1,1 @@
-../../../../../node_modules/react-native/React/Base/RCTModuleMethod.h
+../../../../ReactComponent/node_modules/react-native/React/Base/RCTModuleMethod.h

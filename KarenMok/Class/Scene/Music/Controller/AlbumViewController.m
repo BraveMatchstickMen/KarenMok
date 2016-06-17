@@ -17,6 +17,7 @@
 #import "Reachability.h"
 #import "MVViewController.h"
 #import "AlbumView.h"
+#import "NativeViewController.h"
 
 @interface AlbumViewController ()<UICollectionViewDelegate, UICollectionViewDataSource, MFMailComposeViewControllerDelegate, MBProgressHUDDelegate>
 @property (nonatomic, strong) AlbumView *albumView;
@@ -133,6 +134,8 @@
     
     // 联系我们
     [self.albumView.feedBack addTarget:self action:@selector(sendEmailClick:) forControlEvents:UIControlEventTouchUpInside];
+    
+    [self.albumView.favorite addTarget:self action:@selector(favoriteClick) forControlEvents:UIControlEventTouchUpInside];
 
     
     // 创建collectionView
@@ -212,6 +215,12 @@
 {
     AboutViewController *aboutVC = [[AboutViewController alloc] init];
     [self.navigationController pushViewController:aboutVC animated:YES];
+}
+
+- (void)favoriteClick
+{
+    NativeViewController *collectVC = [[NativeViewController alloc] init];
+    [self.navigationController pushViewController:collectVC animated:YES];
 }
 
 

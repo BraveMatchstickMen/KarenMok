@@ -1,1 +1,1 @@
-../../../../../node_modules/react-native/React/Views/RCTMap.h
+../../../../ReactComponent/node_modules/react-native/React/Views/RCTMap.h

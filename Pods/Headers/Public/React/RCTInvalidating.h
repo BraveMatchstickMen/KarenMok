@@ -1,1 +1,1 @@
-../../../../../node_modules/react-native/React/Base/RCTInvalidating.h
+../../../../ReactComponent/node_modules/react-native/React/Base/RCTInvalidating.h

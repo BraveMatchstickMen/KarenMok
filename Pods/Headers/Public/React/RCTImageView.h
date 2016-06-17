@@ -1,1 +1,1 @@
-../../../../../node_modules/react-native/Libraries/Image/RCTImageView.h
+../../../../ReactComponent/node_modules/react-native/Libraries/Image/RCTImageView.h

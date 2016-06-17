@@ -1,1 +1,1 @@
-../../../../../node_modules/react-native/React/Views/RCTAnimationType.h
+../../../../ReactComponent/node_modules/react-native/React/Views/RCTAnimationType.h

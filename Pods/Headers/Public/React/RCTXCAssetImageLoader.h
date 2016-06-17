@@ -1,1 +1,1 @@
-../../../../../node_modules/react-native/Libraries/Image/RCTXCAssetImageLoader.h
+../../../../ReactComponent/node_modules/react-native/Libraries/Image/RCTXCAssetImageLoader.h

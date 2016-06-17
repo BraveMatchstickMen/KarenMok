@@ -1,1 +1,1 @@
-../../../../../node_modules/react-native/React/Base/RCTTouchEvent.h
+../../../../ReactComponent/node_modules/react-native/React/Base/RCTTouchEvent.h

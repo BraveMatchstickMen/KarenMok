@@ -1,1 +1,1 @@
-../../../../../node_modules/react-native/React/Base/RCTParserUtils.h
+../../../../ReactComponent/node_modules/react-native/React/Base/RCTParserUtils.h

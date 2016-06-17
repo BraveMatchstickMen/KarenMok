@@ -65,6 +65,12 @@
     [self.feedBack setTitle:@"联系我们" forState:UIControlStateNormal];
     [self.feedBack setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     [self.bigScrollView addSubview:self.feedBack];
+    
+    self.favorite = [UIButton buttonWithType:UIButtonTypeSystem];
+    self.favorite.frame = CGRectMake(0, 420/667.0*self.frame.size.height, self.frame.size.width/2, 30);
+    [self.favorite setTitle:@"我的收藏" forState:UIControlStateNormal];
+    [self.favorite setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    [self.bigScrollView addSubview:self.favorite];
 }
 
 

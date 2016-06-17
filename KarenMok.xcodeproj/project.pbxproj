@@ -117,9 +117,13 @@
 		8BE3FFBD1A6CF99D000B6E7D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BE3FFBC1A6CF99D000B6E7D /* Images.xcassets */; };
 		8BE3FFC01A6CF99D000B6E7D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BE3FFBE1A6CF99D000B6E7D /* LaunchScreen.xib */; };
 		8BE3FFCC1A6CF99D000B6E7D /* KarenMokTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE3FFCB1A6CF99D000B6E7D /* KarenMokTests.m */; };
-		E9B9D4311D0FBA2D004D6CC7 /* index.ios.js in Resources */ = {isa = PBXBuildFile; fileRef = E9B9D4301D0FBA2D004D6CC7 /* index.ios.js */; };
-		E9B9D4381D0FBC09004D6CC7 /* FavoriteMusicView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B9D4371D0FBC09004D6CC7 /* FavoriteMusicView.m */; };
-		E9B9D4391D0FBC09004D6CC7 /* FavoriteMusicView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B9D4371D0FBC09004D6CC7 /* FavoriteMusicView.m */; };
+		E9B9D4381D0FBC09004D6CC7 /* ReactView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B9D4371D0FBC09004D6CC7 /* ReactView.m */; };
+		E9B9D4391D0FBC09004D6CC7 /* ReactView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B9D4371D0FBC09004D6CC7 /* ReactView.m */; };
+		E9B9D43C1D0FBE2C004D6CC7 /* NativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B9D43B1D0FBE2C004D6CC7 /* NativeViewController.m */; };
+		E9B9D43D1D0FBE2C004D6CC7 /* NativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B9D43B1D0FBE2C004D6CC7 /* NativeViewController.m */; };
+		E9B9D4401D0FDA96004D6CC7 /* index.ios.js in Resources */ = {isa = PBXBuildFile; fileRef = E9B9D43F1D0FDA96004D6CC7 /* index.ios.js */; };
+		E9FF18C11D13D8AB00B012F3 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FF18C01D13D8AB00B012F3 /* TestViewController.m */; };
+		E9FF18C21D13D8AB00B012F3 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FF18C01D13D8AB00B012F3 /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -309,9 +313,13 @@
 		8BE3FFCA1A6CF99D000B6E7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BE3FFCB1A6CF99D000B6E7D /* KarenMokTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KarenMokTests.m; sourceTree = "<group>"; };
 		C1BB7A93CE6FC54B9C7016CF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		E9B9D4301D0FBA2D004D6CC7 /* index.ios.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.ios.js; sourceTree = "<group>"; };
-		E9B9D4361D0FBC09004D6CC7 /* FavoriteMusicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoriteMusicView.h; sourceTree = "<group>"; };
-		E9B9D4371D0FBC09004D6CC7 /* FavoriteMusicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoriteMusicView.m; sourceTree = "<group>"; };
+		E9B9D4361D0FBC09004D6CC7 /* ReactView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactView.h; sourceTree = "<group>"; };
+		E9B9D4371D0FBC09004D6CC7 /* ReactView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactView.m; sourceTree = "<group>"; };
+		E9B9D43A1D0FBE2C004D6CC7 /* NativeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeViewController.h; sourceTree = "<group>"; };
+		E9B9D43B1D0FBE2C004D6CC7 /* NativeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeViewController.m; sourceTree = "<group>"; };
+		E9B9D43F1D0FDA96004D6CC7 /* index.ios.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.ios.js; sourceTree = "<group>"; };
+		E9FF18BF1D13D8AB00B012F3 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		E9FF18C01D13D8AB00B012F3 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -793,7 +801,7 @@
 		8BE3FFA71A6CF99D000B6E7D = {
 			isa = PBXGroup;
 			children = (
-				E9B9D42F1D0FBA2D004D6CC7 /* ReactComponent */,
+				E9B9D43E1D0FDA96004D6CC7 /* ReactComponent */,
 				8BE3FFB21A6CF99D000B6E7D /* KarenMok */,
 				8BE3FFC81A6CF99D000B6E7D /* KarenMokTests */,
 				8BE3FFB11A6CF99D000B6E7D /* Products */,
@@ -902,21 +910,25 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		E9B9D42F1D0FBA2D004D6CC7 /* ReactComponent */ = {
-			isa = PBXGroup;
-			children = (
-				E9B9D4301D0FBA2D004D6CC7 /* index.ios.js */,
-			);
-			path = ReactComponent;
-			sourceTree = "<group>";
-		};
 		E9B9D4321D0FBB02004D6CC7 /* Favorite */ = {
 			isa = PBXGroup;
 			children = (
-				E9B9D4361D0FBC09004D6CC7 /* FavoriteMusicView.h */,
-				E9B9D4371D0FBC09004D6CC7 /* FavoriteMusicView.m */,
+				E9B9D4361D0FBC09004D6CC7 /* ReactView.h */,
+				E9B9D4371D0FBC09004D6CC7 /* ReactView.m */,
+				E9B9D43A1D0FBE2C004D6CC7 /* NativeViewController.h */,
+				E9B9D43B1D0FBE2C004D6CC7 /* NativeViewController.m */,
+				E9FF18BF1D13D8AB00B012F3 /* TestViewController.h */,
+				E9FF18C01D13D8AB00B012F3 /* TestViewController.m */,
 			);
 			name = Favorite;
+			sourceTree = "<group>";
+		};
+		E9B9D43E1D0FDA96004D6CC7 /* ReactComponent */ = {
+			isa = PBXGroup;
+			children = (
+				E9B9D43F1D0FDA96004D6CC7 /* index.ios.js */,
+			);
+			path = ReactComponent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1042,7 +1054,7 @@
 				8BE3FFC01A6CF99D000B6E7D /* LaunchScreen.xib in Resources */,
 				8B7C466B1AAA850800C727C1 /* Film.png in Resources */,
 				8B7C46791AAA850800C727C1 /* playing_btn_play_n@2x.png in Resources */,
-				E9B9D4311D0FBA2D004D6CC7 /* index.ios.js in Resources */,
+				E9B9D4401D0FDA96004D6CC7 /* index.ios.js in Resources */,
 				8B7C46341AA9F98E00C727C1 /* mok4.txt in Resources */,
 				8B7C46331AA9F98E00C727C1 /* mok3.txt in Resources */,
 				8B7C463B1AA9F98E00C727C1 /* mv1.txt in Resources */,
@@ -1139,6 +1151,7 @@
 				8B7C460F1AA9F96600C727C1 /* UIImageView+WebCache.m in Sources */,
 				8B7C46481AA9FA1A00C727C1 /* Reachability.m in Sources */,
 				8B7C45DF1AA9F92E00C727C1 /* AFNetworkReachabilityManager.m in Sources */,
+				E9B9D43C1D0FBE2C004D6CC7 /* NativeViewController.m in Sources */,
 				8B7C45721AA9F6B100C727C1 /* BasedViewController.m in Sources */,
 				8B7C460E1AA9F96600C727C1 /* UIButton+WebCache.m in Sources */,
 				8B7C45841AA9F70F00C727C1 /* HotMusicViewController.m in Sources */,
@@ -1153,10 +1166,11 @@
 				8B7C45831AA9F70F00C727C1 /* AlbumViewController.m in Sources */,
 				8B7C45DC1AA9F92E00C727C1 /* AFHTTPRequestOperation.m in Sources */,
 				8B7C45781AA9F6E300C727C1 /* AVAplayerView.m in Sources */,
+				E9FF18C11D13D8AB00B012F3 /* TestViewController.m in Sources */,
 				8B7C460A1AA9F96600C727C1 /* SDWebImageDecoder.m in Sources */,
 				8B7C45AA1AA9F7C200C727C1 /* GalleryViewController.m in Sources */,
 				8B7C45DE1AA9F92E00C727C1 /* AFHTTPSessionManager.m in Sources */,
-				E9B9D4381D0FBC09004D6CC7 /* FavoriteMusicView.m in Sources */,
+				E9B9D4381D0FBC09004D6CC7 /* ReactView.m in Sources */,
 				8B7C45E41AA9F92E00C727C1 /* AFURLSessionManager.m in Sources */,
 				8B7C45EF1AA9F95400C727C1 /* MBProgressHUD.m in Sources */,
 				8B7C45771AA9F6E300C727C1 /* AVAplayer.m in Sources */,
@@ -1186,7 +1200,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9B9D4391D0FBC09004D6CC7 /* FavoriteMusicView.m in Sources */,
+				E9B9D43D1D0FBE2C004D6CC7 /* NativeViewController.m in Sources */,
+				E9B9D4391D0FBC09004D6CC7 /* ReactView.m in Sources */,
+				E9FF18C21D13D8AB00B012F3 /* TestViewController.m in Sources */,
 				8BE3FFCC1A6CF99D000B6E7D /* KarenMokTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

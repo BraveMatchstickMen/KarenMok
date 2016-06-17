@@ -1,1 +1,1 @@
-../../../../../node_modules/react-native/Libraries/Image/RCTResizeMode.h
+../../../../ReactComponent/node_modules/react-native/Libraries/Image/RCTResizeMode.h
