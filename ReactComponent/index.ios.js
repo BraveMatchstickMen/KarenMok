@@ -1,14 +1,5 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- */
-
-/**
- * 为了避免骚扰，我们用了一个样例数据来替代Rotten Tomatoes的API
- * 请求，这个样例数据放在React Native的Github库中。
- */
-
 'use strict';
+
 import React, {
     AppRegistry,
     Component,
@@ -19,6 +10,7 @@ import React, {
     ListView,
     TouchableHighlight,
     Alert,
+    NativeModules,
 } from 'react-native';
 
 var API_KEY = '7waqfqbprs7pajbz28mqf6vz';
@@ -32,6 +24,8 @@ class AwesomeProject extends Component {
     constructor(props) {
         super(props);
         this.renderMovie = this.renderMovie.bind(this);
+        this.renderHeader = this.renderHeader.bind(this);
+        this.notificationCenter = NativeModules.RNNotificationManager;
         this.state = {
         dataSource: new ListView.DataSource({
                                             rowHasChanged: (row1, row2) => row1 !== row2,
@@ -65,6 +59,7 @@ class AwesomeProject extends Component {
                 <ListView
                 dataSource={this.state.dataSource}
                 renderRow={this.renderMovie}
+                renderHeader={this.renderHeader}
                 style={styles.listView}
                 />
                 );
@@ -82,7 +77,9 @@ class AwesomeProject extends Component {
 
     renderMovie(movie){
         return (
-                <TouchableHighlight onPress={()=>this._pressRow()}>
+                <TouchableHighlight onPress={()=>{
+                  this._pressRow(movie)
+                }}>
                   <View style={styles.container}>
                     <Image
                       source={{uri: movie.posters.thumbnail}}
@@ -97,8 +94,16 @@ class AwesomeProject extends Component {
                 );
     }
 
-    _pressRow() {
-        alert("测试!!!!");
+    renderHeader(){
+      return (
+        <View style={styles.sectionDivider}>
+          <Text style={styles.headingText}>{this.props.content}</Text>
+        </View>
+       );
+     }
+
+    _pressRow(movie) {
+        this.notificationCenter.postNotification("pushVC", {"k":movie});
     }
 }
 
@@ -126,9 +131,19 @@ var styles = StyleSheet.create({
                                textAlign: 'center'
                                },
                                listView: {
-                               paddingTop: 20,
+                               paddingTop:0,
                                backgroundColor: '#F5FCFF',
-                               }
+                             },
+                             sectionDivider: {
+                               padding: 8,
+                               backgroundColor: '#EEEEEE',
+                               alignItems: 'center'
+                             },
+                             headingText: {
+                               flex: 1,
+                               fontSize: 24,
+                               alignSelf: 'center'
+                             }
                                });
 
 AppRegistry.registerComponent('AwesomeProject', () => AwesomeProject);

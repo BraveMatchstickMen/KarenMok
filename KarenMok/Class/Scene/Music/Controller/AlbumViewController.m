@@ -17,7 +17,7 @@
 #import "Reachability.h"
 #import "MVViewController.h"
 #import "AlbumView.h"
-#import "NativeViewController.h"
+#import "ReactViewController.h"
 
 @interface AlbumViewController ()<UICollectionViewDelegate, UICollectionViewDataSource, MFMailComposeViewControllerDelegate, MBProgressHUDDelegate>
 @property (nonatomic, strong) AlbumView *albumView;
@@ -219,7 +219,7 @@
 
 - (void)favoriteClick
 {
-    NativeViewController *collectVC = [[NativeViewController alloc] init];
+    ReactViewController *collectVC = [[ReactViewController alloc] init];
     [self.navigationController pushViewController:collectVC animated:YES];
 }
 

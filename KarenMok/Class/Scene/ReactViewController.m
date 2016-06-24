@@ -6,31 +6,49 @@
 //  Copyright © 2016 BraveMatch. All rights reserved.
 //
 
-#import "NativeViewController.h"
+#import "ReactViewController.h"
 #import "ReactView.h"
+#import "NativeiOSViewController.h"
 
-@interface NativeViewController ()
+@interface ReactViewController ()
 
 //@property (nonatomic, weak) IBOutlet FavoriteMusicView *favoriteView;
 
 @end
 
-@implementation NativeViewController
+@implementation ReactViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    self.title = @"我的收藏";
+    self.title = @"react page";
     
     self.view.backgroundColor = [UIColor blackColor];
+    
     self.navigationController.navigationBar.translucent = NO;
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reactNotification:) name:@"pushVC" object:nil];
     
     ReactView *reactView = [[ReactView alloc] initWithFrame:self.view.bounds];
     
     reactView.backgroundColor = [UIColor cyanColor];
     
     [self.view addSubview:reactView];
+}
+
+- (void)reactNotification:(NSNotification *)notification
+{
+    dispatch_async(dispatch_get_main_queue(), ^{
+        
+        NSLog(@"movie: %@", notification.userInfo[@"k"]);
+        
+        NativeiOSViewController *nativeVC = [[NativeiOSViewController alloc] init];
+        
+        nativeVC.dictionary = notification.userInfo[@"k"];
+        
+        [self.navigationController pushViewController:nativeVC animated:YES];
+    });
 }
 
 - (void)didReceiveMemoryWarning {

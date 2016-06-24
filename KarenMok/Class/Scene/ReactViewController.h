@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NativeViewController : UIViewController
+@interface ReactViewController : UIViewController
 
 @end

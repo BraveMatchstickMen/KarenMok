@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TestViewController : UIViewController
+@interface NativeiOSViewController : UIViewController
 
-- (void)pushTestViewController;
+@property (nonatomic, strong) NSDictionary *dictionary;
 
 @end

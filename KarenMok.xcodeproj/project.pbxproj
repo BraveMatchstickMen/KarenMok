@@ -119,11 +119,13 @@
 		8BE3FFCC1A6CF99D000B6E7D /* KarenMokTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE3FFCB1A6CF99D000B6E7D /* KarenMokTests.m */; };
 		E9B9D4381D0FBC09004D6CC7 /* ReactView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B9D4371D0FBC09004D6CC7 /* ReactView.m */; };
 		E9B9D4391D0FBC09004D6CC7 /* ReactView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B9D4371D0FBC09004D6CC7 /* ReactView.m */; };
-		E9B9D43C1D0FBE2C004D6CC7 /* NativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B9D43B1D0FBE2C004D6CC7 /* NativeViewController.m */; };
-		E9B9D43D1D0FBE2C004D6CC7 /* NativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B9D43B1D0FBE2C004D6CC7 /* NativeViewController.m */; };
+		E9B9D43C1D0FBE2C004D6CC7 /* ReactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B9D43B1D0FBE2C004D6CC7 /* ReactViewController.m */; };
+		E9B9D43D1D0FBE2C004D6CC7 /* ReactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B9D43B1D0FBE2C004D6CC7 /* ReactViewController.m */; };
 		E9B9D4401D0FDA96004D6CC7 /* index.ios.js in Resources */ = {isa = PBXBuildFile; fileRef = E9B9D43F1D0FDA96004D6CC7 /* index.ios.js */; };
-		E9FF18C11D13D8AB00B012F3 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FF18C01D13D8AB00B012F3 /* TestViewController.m */; };
-		E9FF18C21D13D8AB00B012F3 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FF18C01D13D8AB00B012F3 /* TestViewController.m */; };
+		E9FF18C11D13D8AB00B012F3 /* NativeiOSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FF18C01D13D8AB00B012F3 /* NativeiOSViewController.m */; };
+		E9FF18C21D13D8AB00B012F3 /* NativeiOSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FF18C01D13D8AB00B012F3 /* NativeiOSViewController.m */; };
+		E9FF18C51D14098000B012F3 /* RNNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FF18C41D14098000B012F3 /* RNNotificationManager.m */; };
+		E9FF18C61D14098000B012F3 /* RNNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FF18C41D14098000B012F3 /* RNNotificationManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -315,11 +317,13 @@
 		C1BB7A93CE6FC54B9C7016CF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		E9B9D4361D0FBC09004D6CC7 /* ReactView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactView.h; sourceTree = "<group>"; };
 		E9B9D4371D0FBC09004D6CC7 /* ReactView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactView.m; sourceTree = "<group>"; };
-		E9B9D43A1D0FBE2C004D6CC7 /* NativeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeViewController.h; sourceTree = "<group>"; };
-		E9B9D43B1D0FBE2C004D6CC7 /* NativeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeViewController.m; sourceTree = "<group>"; };
+		E9B9D43A1D0FBE2C004D6CC7 /* ReactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactViewController.h; sourceTree = "<group>"; };
+		E9B9D43B1D0FBE2C004D6CC7 /* ReactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactViewController.m; sourceTree = "<group>"; };
 		E9B9D43F1D0FDA96004D6CC7 /* index.ios.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.ios.js; sourceTree = "<group>"; };
-		E9FF18BF1D13D8AB00B012F3 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
-		E9FF18C01D13D8AB00B012F3 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		E9FF18BF1D13D8AB00B012F3 /* NativeiOSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeiOSViewController.h; sourceTree = "<group>"; };
+		E9FF18C01D13D8AB00B012F3 /* NativeiOSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeiOSViewController.m; sourceTree = "<group>"; };
+		E9FF18C31D14098000B012F3 /* RNNotificationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNNotificationManager.h; sourceTree = "<group>"; };
+		E9FF18C41D14098000B012F3 /* RNNotificationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNNotificationManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -492,7 +496,7 @@
 		8B7160F31AA85BD500C6E3DA /* Scene */ = {
 			isa = PBXGroup;
 			children = (
-				E9B9D4321D0FBB02004D6CC7 /* Favorite */,
+				E9B9D4321D0FBB02004D6CC7 /* React Native */,
 				8B7160E21AA737BA00C6E3DA /* BasedClass */,
 				8B30543A1A724910006872FE /* Play */,
 				8B2758911A70D8DA00B7F759 /* Music */,
@@ -910,17 +914,19 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		E9B9D4321D0FBB02004D6CC7 /* Favorite */ = {
+		E9B9D4321D0FBB02004D6CC7 /* React Native */ = {
 			isa = PBXGroup;
 			children = (
 				E9B9D4361D0FBC09004D6CC7 /* ReactView.h */,
 				E9B9D4371D0FBC09004D6CC7 /* ReactView.m */,
-				E9B9D43A1D0FBE2C004D6CC7 /* NativeViewController.h */,
-				E9B9D43B1D0FBE2C004D6CC7 /* NativeViewController.m */,
-				E9FF18BF1D13D8AB00B012F3 /* TestViewController.h */,
-				E9FF18C01D13D8AB00B012F3 /* TestViewController.m */,
+				E9B9D43A1D0FBE2C004D6CC7 /* ReactViewController.h */,
+				E9B9D43B1D0FBE2C004D6CC7 /* ReactViewController.m */,
+				E9FF18BF1D13D8AB00B012F3 /* NativeiOSViewController.h */,
+				E9FF18C01D13D8AB00B012F3 /* NativeiOSViewController.m */,
+				E9FF18C31D14098000B012F3 /* RNNotificationManager.h */,
+				E9FF18C41D14098000B012F3 /* RNNotificationManager.m */,
 			);
-			name = Favorite;
+			name = "React Native";
 			sourceTree = "<group>";
 		};
 		E9B9D43E1D0FDA96004D6CC7 /* ReactComponent */ = {
@@ -1151,7 +1157,7 @@
 				8B7C460F1AA9F96600C727C1 /* UIImageView+WebCache.m in Sources */,
 				8B7C46481AA9FA1A00C727C1 /* Reachability.m in Sources */,
 				8B7C45DF1AA9F92E00C727C1 /* AFNetworkReachabilityManager.m in Sources */,
-				E9B9D43C1D0FBE2C004D6CC7 /* NativeViewController.m in Sources */,
+				E9B9D43C1D0FBE2C004D6CC7 /* ReactViewController.m in Sources */,
 				8B7C45721AA9F6B100C727C1 /* BasedViewController.m in Sources */,
 				8B7C460E1AA9F96600C727C1 /* UIButton+WebCache.m in Sources */,
 				8B7C45841AA9F70F00C727C1 /* HotMusicViewController.m in Sources */,
@@ -1166,7 +1172,7 @@
 				8B7C45831AA9F70F00C727C1 /* AlbumViewController.m in Sources */,
 				8B7C45DC1AA9F92E00C727C1 /* AFHTTPRequestOperation.m in Sources */,
 				8B7C45781AA9F6E300C727C1 /* AVAplayerView.m in Sources */,
-				E9FF18C11D13D8AB00B012F3 /* TestViewController.m in Sources */,
+				E9FF18C11D13D8AB00B012F3 /* NativeiOSViewController.m in Sources */,
 				8B7C460A1AA9F96600C727C1 /* SDWebImageDecoder.m in Sources */,
 				8B7C45AA1AA9F7C200C727C1 /* GalleryViewController.m in Sources */,
 				8B7C45DE1AA9F92E00C727C1 /* AFHTTPSessionManager.m in Sources */,
@@ -1182,6 +1188,7 @@
 				8B7C459F1AA9F78C00C727C1 /* MVViewController.m in Sources */,
 				8B7C45981AA9F75700C727C1 /* AboutDetailViewController.m in Sources */,
 				8B7C46101AA9F96600C727C1 /* VCPhotoScrollShow.m in Sources */,
+				E9FF18C51D14098000B012F3 /* RNNotificationManager.m in Sources */,
 				8B7C45E61AA9F92E00C727C1 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				8B7C458D1AA9F72400C727C1 /* AlbumView.m in Sources */,
 				8B7C45E51AA9F92E00C727C1 /* AFNetworkActivityIndicatorManager.m in Sources */,
@@ -1200,10 +1207,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9B9D43D1D0FBE2C004D6CC7 /* NativeViewController.m in Sources */,
+				E9B9D43D1D0FBE2C004D6CC7 /* ReactViewController.m in Sources */,
 				E9B9D4391D0FBC09004D6CC7 /* ReactView.m in Sources */,
-				E9FF18C21D13D8AB00B012F3 /* TestViewController.m in Sources */,
+				E9FF18C21D13D8AB00B012F3 /* NativeiOSViewController.m in Sources */,
 				8BE3FFCC1A6CF99D000B6E7D /* KarenMokTests.m in Sources */,
+				E9FF18C61D14098000B012F3 /* RNNotificationManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
